@@ -1,17 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Classic Cars</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Special+Elite&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-   
-    <script src="script.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Classic Cars</title>
+  <link rel="stylesheet" href="style.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Special+Elite&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <!-- Menu -->
+  <div class="menu target center">
+    <div class="menu-line menu-line-1"></div>
+    <div class="menu-line menu-line-2"></div>
+  </div>
+  <!-- End of Menu -->
+
+  <!-- Navbar -->
+  <nav class="navbar target">
+    <a href="#home" class="navbar-link">Home</a>
+    <a href="#popular-cars" class="navbar-link">Popular Cars</a>
+    <a href="#video-gallery" class="navbar-link">Video Gallery</a>
+    <a href="#image-gallery" class="navbar-link">Image Gallery</a>
+    <a href="#contact" class="navbar-link">Contact</a>
+  </nav>
+  <!-- End of Navbar -->
+
+  <!-- Section 1 -->
+  <div class="wrapper">
+    <section class="section-1 target center" id="home">
+      <h1 class="section-heading section-1-heading">Classic Cars</h1>
+      <img src="images/car-section1.png" class="section-1-img" />
+    </section>
+  </div>
+  <!-- End of Section 1 -->
+
+  <!-- Section 2 -->
+  <div class="wrapper">
+    <section class="section-2 target" id="popular-cars">
+      <h1 class="section-heading">Popular Cars</h1>
+      <div class="cards-wrapper center">
+        <div class="card">
+          <h2 class="car-name">Car Name</h2>
+          <img src="images/car-1.jpg" class="card-img" />
+          <h3 class="car-price">$ 200,000</h3>
+          <button type="button" class="card-btn">See More</button>
+        </div>
+        <div class="card">
+          <h2 class="car-name">Car Name</h2>
+          <img src="images/car-2.jpg" class="card-img" />
+          <h3 class="car-price">$ 100,000</h3>
+          <button type="button" class="card-btn">See More</button>
+        </div>
+        <div class="card">
+          <h2 class="car-name">Car Name</h2>
+          <img src="images/car-3.jpg" class="card-img" />
+          <h3 class="car-price">$ 150,000</h3>
+          <button type="button" class="card-btn">See More</button>
+        </div>
+      </div>
+    </section>
+  </div>
+  <!-- End of Section 2 -->
+  <script src="script.js"></script>
+</body>
+
 </html>
